@@ -7,7 +7,7 @@
 
 html {
     background-color: #DDDDDD;
-    font-family: "Arvo";
+    font-family: "Arvo", Helvetica;
 }
 
 .frame {
@@ -28,7 +28,6 @@ html {
     display: inline-block;
     position: absolute;
     width: 500px;
-    /*vertical-align: top;*/
     z-index: 1;
 }
 
@@ -68,115 +67,94 @@ html {
 /*Positions pastilles*/
 
 #r1 {
-    position: absolute;
-    z-index: 3;
     left: 8px;
     top: 90px;
 }
 
 #r2 {
-    position: absolute;
-    z-index: 3;
     left: 0px;
     top: 220px;
 }
 
 #r3 {
-    position: absolute;
-    z-index: 3;
     left: 32px;
     top: 340px;
 }
 
 #r4 {
-    position: absolute;
-    z-index: 3;
     left: 72px;
     top: 420px;
 }
 
 #r5 {
-    position: absolute;
-    z-index: 3;
     left: 82px;
     top: 240px;
 }
 
 #r6 {
-    position: absolute;
-    z-index: 3;
     left: 115px;
     top: 185px;
+}
+
+
+/*posmatr*/
+
+.posr {
+    position: absolute;
+    z-index: 3;
+}
+
+.post1 {
+    position: relative;
+    z-index: 2;
+}
+
+.post2 {
+    position: absolute;
+    z-index: 2;
 }
 
 
 /*position textes*/
 
 #p1 {
-    position: relative;
-    z-index: 2;
     left: 170px;
     bottom: 90px;
 }
 
 #p2 {
-    position: relative;
-    z-index: 2;
     left: 178px;
     bottom: 220px;
 }
 
 #p3 {
-    position: absolute;
-    z-index: 2;
     left: 146px;
-    bottom: 160px;
+    bottom: 195px;
 }
 
 #p4 {
-    position: absolute;
-    z-index: 2;
     left: 105px;
-    bottom: 190px;
+    bottom: 230px;
 }
 
 #p5 {
-    position: absolute;
-    z-index: 2;
     left: 95px;
-    bottom: 110px;
+    bottom: 140px;
 }
 
 #p6 {
-    position: absolute;
-    z-index: 2;
     left: 63px;
-    bottom: 100px;
+    bottom: 125px;
 }
 
 
 /*hover textes*/
 
-#r1:hover #p1 {
-    display: block;
-}
-
-#r2:hover #p2 {
-    display: block;
-}
-
-#r3:hover #p3 {
-    display: block;
-}
-
-#r4:hover #p4 {
-    display: block;
-}
-
-#r5:hover #p5 {
-    display: block;
-}
-
+#r1:hover #p1,
+#r2:hover #p2,
+#r3:hover #p3,
+#r4:hover #p4,
+#r5:hover #p5,
 #r6:hover #p6 {
     display: block;
 }
